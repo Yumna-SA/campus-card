@@ -1,12 +1,13 @@
-function Card(){
-    return (
-        <div className="card">
-            <div className="avatar">YSA</div>
-            <h2>Yumna Saeed Akhtar</h2>
-            <p>Web Technologies.Semester 1</p>
-
-        </div>
-    );
+function Card() {
+  return (
+    <div className="card">
+      <div className="avatar">YSA</div>
+      <div>
+        <b>Yumna Saeed Akhtar</b>
+        <p>PF · Semester 1</p>
+      </div>
+    </div>
+  );
 }
 
 export default Card;
